@@ -1,0 +1,4 @@
+2026-03-08 09:38:27 | admin@company.com | ERROR | Configuration load failure
+2026-03-08 11:59:03 | analyst@company.com | ERROR | Data parsing exception
+2026-03-10 09:29:07 | admin@company.com | ERROR | SSL handshake failure
+2026-03-10 11:37:42 | qa.team@company.com | ERROR | Automation script crashed
