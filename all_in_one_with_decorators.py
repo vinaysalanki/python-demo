@@ -127,7 +127,7 @@ def pal():
     if a==a[::-1]:
         print("pal")
     else:
-        print("not apal")
+        print("not a pal")
 pal()
     
         
