@@ -1,0 +1,19 @@
+import pytest
+
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def test_add_pass():
+    assert add(2, 3) == 5
+
+def test_add_fail():
+    assert add(2, 2) == 5
+
+def test_subtract_pass():
+    assert subtract(10, 4) == 6
+
+
+
