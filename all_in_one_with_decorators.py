@@ -129,6 +129,28 @@ def pal():
     else:
         print("not a pal")
 pal()
+
+///with decorators in frequency/////
+import time 
+def timer(func):
+    def wrapper():
+        start=time.time()
+        func()
+        end=time.time()
+        print("execution time:",{end-start},"seconds")
+    return wrapper
+
+@timer
+def frequency():
+    num=input("enter the numbers:")
+    freq={}
+    for number in num:
+        if number in freq:
+            freq[number]=freq[number]+1
+        else:
+            freq[number]=1
+    print(freq)
+frequency()
     
         
 
