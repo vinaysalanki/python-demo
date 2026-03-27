@@ -127,4 +127,13 @@ for i in num:
 print(even)
 print(odd)
 
+////frequency count////
+wrd=input("enter the string:")
+freq={}
+for ch in wrd:
+    if ch in freq:
+        freq[ch]=freq[ch]+1
+    else:
+        freq[ch]=1
+print(freq)
 
